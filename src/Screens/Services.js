@@ -4,6 +4,8 @@ import Footer from '../Components/Footer';
 import {useLocation} from "react-router-dom";
 import WhiteHeader from '../Components/WhiteHeader';
 import Contact from '../Components/Contact';
+import Serve from '../Components/Serve';
+
 
 const Services = () => {
     const { pathname } = useLocation();
@@ -23,7 +25,7 @@ const Services = () => {
             </div>
         </div>
 
-      <Services/>
+      <Serve/>
 
         <Contact/>
 
