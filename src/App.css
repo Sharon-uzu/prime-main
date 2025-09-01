@@ -899,7 +899,9 @@ footer .f-r .bottom span{
     font-size: 17px;
     font-weight: 600;
   }
-  
+  .white .bars{
+    color: #fff;
+  }
   .hero .h-top h2{
     font-size: 38px;
   }
@@ -943,9 +945,7 @@ footer .f-r .bottom span{
   }
 }
 @media screen and (max-width:500px){
-  header nav img{
-  width: 55px;
-}
+
 .aboutus .ab-h img{
   width: 55px;
 }
