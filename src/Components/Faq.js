@@ -46,10 +46,10 @@ const faqData = [
 ];
 
 const Faq = () => {
-  const [openId, setOpenId] = useState(1); // Only first question open by default
+  const [openId, setOpenId] = useState(1);
 
   const toggleFaq = (id) => {
-    setOpenId(openId === id ? null : id); // Toggle or close all
+    setOpenId(openId === id ? null : id);
   };
 
   return (
