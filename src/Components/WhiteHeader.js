@@ -42,7 +42,7 @@ const WhiteHeader = () => {
 
                 <ul className={click ? 'menu active' : 'menu'}>
                     <li><Link to='/' onClick={closeMenuBar}>Home</Link></li>
-                    <li><Link to='/services' onClick={closeMenuBar}>Services</Link></li>
+                    <li><Link to='/service' onClick={closeMenuBar}>Services</Link></li>
                     {/* <li><a href='#pricing' onClick={closeMenuBar}>Pricing</a></li> */}
                     <li><a href='#contact' onClick={closeMenuBar}>Contact</a></li>
                     <li><Link to='/about' onClick={closeMenuBar}>About Us</Link></li>
