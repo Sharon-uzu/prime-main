@@ -6,22 +6,23 @@ const testimonialsData = [
   {
     id: 1,
     rating: 5.0,
-    text: "consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.",
-    name: "Fawzi Sayed",
+    text: "Working with Primeforte was a game-changer for my business. They built a powerful e-commerce website for my furniture and wood products, and since launch, I’ve seen a huge boost in sales and customer trust. The site is easy to manage, fast, and beautifully designed. I couldn’t have asked for a better partner.",
+    name: "Major Cas Construction Limited",
   },
   {
     id: 2,
     rating: 4.8,
-    text: "consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.",
-    name: "Jane Doe",
+    text: "Primeforte exceeded my expectations. Their team was professional, responsive, and made the entire process smooth. The end product truly reflects the quality I envisioned.",
+    name: "Textile Limited",
   },
   {
     id: 3,
     rating: 5.0,
-    text: "consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.",
-    name: "John Smith",
+    text: "From start to finish, the Primeforte team delivered with excellence. Their tech expertise and customer support set them apart, and I’d gladly recommend them to any business going digital.",
+    name: "Oxwill Ventures",
   },
 ];
+
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
