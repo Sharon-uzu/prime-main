@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+   font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.header{
+  background: #FBFBFB;
+  height: 12vh;
+}
+.whitetop{
+  background: transparent !important;
+}
+header{
+  width: 70%;
+  margin: auto;
+  height: 100%;
+}
+.bars{
+  display: none;
+}
+header nav{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img{
+  width: 40px;
+}
+
+header nav ul{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+header nav ul li a{
+  color: #6C6C6C;
+  text-decoration: none;
+}
+.white nav ul li a{
+  color: #fff;
+}
+header nav ul .proj{
+  border: 2px solid #000066;
+  color: #000066;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+header nav ul .proj a{
+  color: #000066;
+}
+
+.white nav ul .proj{
+  border: 2px solid #fff;
+
+}
+.white nav ul .proj a{
+  color: #fff;
+}
+.hero{
+  width: 100%;
+  padding: 20px 0;
+}
+
+.hero .h-top{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.hero .h-top h2{
+  font-size: 48px;
+  color: #1568D5;
+  font-weight: 500;
+  letter-spacing: .3px;
+  margin-bottom: 8px;
+}
+
+.hero .h-top p{
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  color: #464545;
+  font-weight: 400;
+  letter-spacing: .3px;
+  margin-bottom: 15px;
+}
+
+.hero img{
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.hero .h-btns{
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  gap: 13px;
+}
+
+.hero .h-btns a{
+  width: fit-content;
+  text-decoration: none;
+}
+
+.hero .h-btns a button{
+  width: 100%;
+  background-color: #000066;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: .6px;
+  border: none;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 10px;
+}
+
+.hero .h-btns a .exp-btn{
+  background-color: transparent;
+  color: #000066;
+  border: 1px solid #000066;
+}
+
+
+.who-we-are{
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.who-we-are .w-l{
+  width: 38%;
+}
+
+.who-we-are .w-l h3{
+  font-weight: 600;
+  font-size: 42px;
+  letter-spacing: .8px;
+  color: #1568D5;
+  margin-bottom: 14px;
+}
+
+.who-we-are .w-l p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #464545;
+  margin-bottom: 20px;
+}
+
+.who-we-are .w-l .abs-txt{
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #E6E6E6;
+  border-radius: 8px;
+  padding: 12px 0;
+}
+
+.who-we-are .w-l .abs-txt .abs-c{
+  width: 90%;
+  margin: auto;
+}
+
+.who-we-are .w-l .abs-txt .abs-c .ab-btn{
+  display: flex;
+  justify-content: end;
+}
+.who-we-are .w-l .ab-btn a{
+  text-decoration: none;
+}
+.who-we-are .w-l .ab-btn button{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #000066;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+
+.who-we-are .w-l .ab-btn button .ab-i{
+  font-size: 20px;
+}
+
+.who-we-are img{
+  width: 58%;
+  height: 84%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+
+.services{
+  width: 100%;
+  padding: 30px 0;
+}
+
+.services .s-top{
+  text-align: center;
+  margin-bottom: 35px;
+}
+.services .s-top h3{
+  color: #1568D5;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: .8px;
+}
+
+.services .s-top p{
+  color: #464545;
+  font-size: 16px;
+  font-weight: 400;
+  width: 45%;
+  margin: auto;
+  letter-spacing: .8px;
+}
+
+.services .serv-flex{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.services .serv-flex .one{
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 9px;
+  border-radius: 12px;
+
+}
+
+.services .serv-flex .one .one-card{
+  width: 100%;
+  color: #464545;
+  padding: 18px 0;
+  border-radius: 9px;
+  margin-bottom: 8px;
+  background: #F9F9FD;
+
+
+}
+.services .serv-flex .one .one-card .circ{
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #FFFFFF;
+
+}
+.services .serv-flex .one .one-card .cc-i{
+  font-size: 17px;
+
+}
+
+.services .serv-flex .one .one-card .one-cc{
+  width: 90%;
+  margin: auto;
+}
+
+.services .serv-flex .one .one-card .one-cc h4{
+  font-size: 19px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.services .serv-flex .one .one-card .one-cc p{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.services .serv-flex .s-img{
+  width: 100%;
+  height: 80%;
+}
+
+.services .serv-flex .s-img img{
+  height: 350px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+/* contact */
+
+.contact{
+  margin: 30px 0;
+  padding: 60px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(Assets/group-multinational-busy-people-working-office\ 1.png);
+}
+
+.contact .contact-form{
+  width: 45%;
+  margin: auto;
+  background-color: hsla(0, 0%, 100%,.7);
+  padding: 40px 0;
+}
+
+.contact .contact-form .c-f-c{
+  width: 90%;text-align: center;
+  margin: auto;
+
+}
+
+.contact .contact-form .c-f-c h3{
+  font-size: 30px;
+  margin-bottom: 10px;
+  letter-spacing: .8px;
+  color: #1568D5;
+}
+
+.contact .contact-form .c-f-c p{
+  font-size: 15px;
+  margin-bottom: 12px;
+  letter-spacing: .8px;
+  color: #464545;
+}
+
+.contact .contact-form .c-f-c input{
+  width: 100%;
+  margin-top: 12px;
+  background-color: transparent;
+  height: 50px;
+  padding-left: 5px;
+  border: 1px solid #1568D5;
+  border-radius: 7px;
+}
+
+.contact .contact-form .c-f-c input::placeholder{
+  color: #1568D5;
+}
+
+.contact .contact-form .c-f-c textarea{
+  width: 100%;
+  margin-top: 12px;
+  background-color: transparent;
+  height: 150px;
+  padding-left: 5px;
+  padding-top: 6px;
+  border: 1px solid #1568D5;
+  border-radius: 7px;
+}
+
+.contact .contact-form .c-f-c textarea::placeholder{
+  color: #1568D5;
+}
+
+.contact .contact-form .c-f-c button{
+  background-color: #000066;
+  color: #fff;
+  margin-top: 20px;
+  height: 45px;
+  border-radius: 5px;
+  padding: 0 20px;
+  border: none;
+}
+
+/* Testimonials */
+.tests{
+  width: 70%;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tests img{
+  width: 54%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 350px;
+}
+
+.tests .test-r{
+  width: 40%;
+}
+
+.tests .test-r h3{
+  color: #1568D5;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: .5px;
+  margin-bottom: 10px;
+}
+
+.tests .test-r .star-rate{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tests .test-r .star-rate .s-i{
+  font-size: 18px;
+  color: #FDC435;
+}
+
+.tests .test-r .star-rate span{
+  color: #464545;
+  font-size: 17px;
+}
+
+.tests .test-r p{
+  color: #464545;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: .4px;
+}
+
+.tests .test-r h5{
+  color: #1568D5;
+  font-size: 17px;
+  text-align: end;
+  font-weight: 500;
+}
+
+.pagination {
+  display: flex;
+  gap: 30px;
+  margin-top: 22px;
+}
+
+.pagination div{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000066;
+}
+
+.arrow {
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.arrow:hover {
+  color: #fff;
+}
+
+
+/* Faq */
+.faq{
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+  
+}
+
+.faq h3{
+  color: #1568D5;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: .5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.faq h6{
+  color: #464545;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: .8px;
+  margin-bottom: 25px;
+  line-height: 24px;
+}
+
+.faq .faq-flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+} 
+
+.faq .faq-flex .f-l{
+  height: 100%;
+  width:55% ;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.faq .faq-flex .f-l .f1{
+  border: 1px solid #D6D6D6;
+  border-radius: 6px;
+  padding: 15px 0;
+}
+
+.faq .faq-flex .f-l .f1 .f1-c{
+  width: 90%;
+  margin: auto;
+}
+
+.faq .faq-flex .f-l .f1 .f1-c h5{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: .6px;
+  color: #1568D5;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.faq .faq-flex .f-l .f1 .f1-c h5 .f-i{
+  color: #464545;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.faq .faq-flex .f-l .f1 p{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .4px;
+  color: #464545;
+  text-align: left;
+  margin: 0;
+}
+
+.faq .faq-flex .faq-img{
+  width: 40%;
+  height: 100%;
+}
+
+.faq .faq-flex .faq-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* footer */
+.footer{
+  background: #FBFBFB;
+  width: 100%;
+  padding: 50px 0;
+
+}
+footer{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .f-l{
+  width: 27%;
+}
+
+footer .f-l .footer-icon{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+footer .f-l .footer-icon a{
+  font-size: 17px;
+  color: #1568D5;
+}
+
+footer .f-l img{
+  width: 60px;
+  margin-bottom: 6px;
+}
+
+footer .f-l p{
+  width: 95%;
+  font-size: 14px;
+  color: #6c6c6c;
+  letter-spacing: .6px;
+  line-height: 23px;
+}
+
+footer .f-r{
+  width: 22%;
+}
+
+footer .f-r .top{
+  padding-bottom: 40px;
+}
+footer .f-r .top a{
+  color: #6C6C6C;
+  display: block;
+  font-size: 14.5px;
+  margin-top: 7px;
+  font-weight: 400;
+  text-decoration: none;
+}
+footer .f-r h4{
+  color: #1568D5;
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+footer .f-r .bottom{
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .f-r .bottom a{
+  color: #aba7a7;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+}
+footer .f-r .bottom .links{
+  display: flex;
+  gap: 30px;
+}
+footer .f-r .bottom span{
+  color: #aba7a7;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* About us */
+.aboutus{
+  width: 100%;
+  height: 330px;
+  background-image: url(Assets/group-multinational-busy-people-working-office\ 1.png);
+  padding: 20px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.aboutus .ab-h{
+  width: 70%;
+  margin: auto;
+}
+.aboutus .ab-h img{
+  width: 70px;
+}
+
+.aboutus .ab-txt{
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus .ab-txt h3{
+  font-weight: 500;
+  font-size: 43px;
+  color: #fff;
+  letter-spacing: .8px;
+}
+
+.abtus{
+  width: 70%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.abtus h2{
+  font-weight: 500;
+  font-size: 28px;
+  color: #1568D5;
+  margin-bottom: 10px;
+}
+
+.abtus p{
+  font-size: 16px;
+  color: #464545;
+  line-height: 24px;
+}
+
+.abtus .mission{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.abtus img{
+  width: 48%;
+}
+
+.abtus .mission div{
+  width: 48%;
+}
+
+.abtus .mission div img{
+  width: 100%;
+  margin-top: 12px;
+}
+
+@media screen and (max-width:1100px){
+  .who-we-are{
+    width: 90%;
+  }
+ 
+  .services .serv-flex .one{
+    width: 47%;
+  }
+
+.services .s-top p{
+  width: 60%;
+}
+.services .serv-flex{
+  width: 90%;
+}
+}
+
+@media screen and (max-width:900px){
+  .who-we-are{
+    height: 500px;
+  }
+  .who-we-are .w-l h3{
+    font-size: 30px;
+  }
+  .services{
+    width: 100%;
+    margin: auto;
+  }
+  .tests{
+    width: 90%;
+  }
+  footer{
+    flex-direction: column;
+  }
+  footer .f-l{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  footer .f-r{
+    width: 100%;
+  }
+  .abtus{
+  width: 90%;
+  margin: auto;
+}
+
+
+
+
+}
+
+@media screen and (max-width:750px){
+  header nav ul{
+    width: 65%;
+  }
+  .services .s-top p{
+    width: 90%;
+  }
+  .hero .h-top h2{
+    font-size: 30px;
+  }
+  .who-we-are .w-l h3{
+    font-size: 30px;
+  }
+  .who-we-are{
+    height: auto;
+    flex-direction: column;
+  }
+  .who-we-are .w-l{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .services .serv-flex .one .one-card .one-cc h4{
+    font-size: 16px;
+  }
+   .services .serv-flex .one .one-card .one-cc p{
+    font-size: 14px;
+  }
+  .who-we-are .w-l .abs-txt{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .who-we-are img{
+    width: 100%;
+    height: auto;
+  }
+  .contact .contact-form{
+    width: 85%;
+  }
+  .faq .faq-flex .faq-img{
+    display: none;
+  }
+  .faq .faq-flex .f-l{
+    width: 100%;
+  }
+  footer{
+    width: 90%;
+  }
+  header{
+    width: 90%;
+  }
+  .hero .h-top{
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  .aboutus .ab-h{
+    width: 90%;
+  }
+  .tests .test-r h3{
+    font-size: 30px;
+  }
+
+
+.abtus h2{
+  font-size: 24px;
+}
+
+
+
+.abtus .mission{
+  flex-direction: column;
+}
+
+.abtus img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.abtus .mission div{
+  width: 100%;
+}
+
+
+
+  
+}
+
+@media screen and (max-width:600px){
+   header nav ul{
+    position: absolute;
+    flex-direction: column;
+    background-color: #000066;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    height: 88vh;
+    padding-top: 4vh;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    left: -100%;
+
+  }
+  header nav ul li a{
+    color: #fff;
+  }
+  .bars{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  header nav .active{
+    left: 0;
+  }
+
+  .bars{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  .hero .h-top h2{
+    font-size: 38px;
+  }
+  .hero .h-top p{
+    width: 95%;
+    font-size: 16px;
+  }
+
+  .services .s-top{
+    flex-direction: column;
+    align-items: center;
+  }
+  .services .s-top p{
+    width: 100%;
+    text-align: center;
+  }
+  .tests{
+    flex-direction: column-reverse;
+  }
+  .services .serv-flex{
+    flex-wrap: wrap;
+  }
+  .services .serv-flex .one{
+    width: 100%;
+  }
+  .services .serv-flex .s-img img{
+    display: none;
+  }
+  .tests img{
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .tests .test-r{
+    width: 100%;
+  }
+  .faq{
+    width: 90%;
+  }
+  .who-we-are .w-l h3{
+    font-size: 34px;
+  }
+}
+@media screen and (max-width:500px){
+  header nav img{
+  width: 55px;
+}
+.aboutus .ab-h img{
+  width: 55px;
+}
+  footer .f-r .top{
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  footer .f-r .top a{
+    width: 45%;
+    margin-bottom: 12px;
+  }
+  footer .f-r .bottom{
+    flex-direction: column;
+  }
+  footer .f-r .bottom span{
+    margin-bottom: 10px;
+  }
+
+  footer .f-r .bottom .links{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+
+
+@media screen and (max-width:450px){
+ 
+   .services .serv-flex .s-img{
+    display: none;
+  }
+
+  /* .cover{
+    width: 100%;
+    top: 12vh;
+    position: fixed;
+    height: 100vh;
+    background-color: hsla(0, 0%, 0%, .9);
+    z-index: 50000;
+    
+  } */
+  .hero .h-top h2{
+    font-size: 28px;
+  }
+  .hero .h-top p{
+    width: 100%;
+  }
+  .hero img{
+    height: 330px;
+  }
+  .services .serv-flex{
+    flex-wrap: wrap;
+  }
+  .services .serv-flex .one{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .contact .contact-form{
+    width: 90%;
+  }
+  .hero .h-btns{
+    width: 90%;
+  }
+  .tests .test-r h3{
+    font-size: 26px;
+  }
+  .services .s-top h3{
+    font-size: 26px;
+  }
+  .services .serv-flex .one .one-card .one-cc h4{
+    font-size: 18px;
+  }
+  .who-we-are .w-l h3{
+    font-size: 26px;
+  }
+  .contact .contact-form .c-f-c h3{
+    font-size: 26px;
+  }
+  .faq h3{
+    font-size: 24px;
+  }
+  .aboutus .ab-txt h3{
+    font-size: 30px;
+  }
+}
