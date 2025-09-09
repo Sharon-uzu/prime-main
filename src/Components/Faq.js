@@ -5,7 +5,7 @@ import faq from "../Assets/faq.png";
 const faqData = [
   {
     id: 1,
-    question: "What services does Primeforte offer?",
+    question: "What services does Primforte offer?",
     answer: "We provide end-to-end technology solutions, including software development, web and mobile app design, cloud services, cybersecurity, IT consulting, and digital transformation strategies.",
   },
   {
@@ -15,7 +15,7 @@ const faqData = [
   },
   {
     id: 3,
-    question: "How do I get started with Primeforte?",
+    question: "How do I get started with Primforte?",
     answer: "Simply reach out through our Contact Page or request a consultation. Our team will assess your needs, recommend the right solutions, and guide you through the next steps.",
   },
   {
